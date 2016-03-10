@@ -4,16 +4,6 @@ Var
 	Cont, j, n, k: integer;
 Begin
 ClrScr;
- 	 Writeln('Atenção');
-	 Writeln('O tempo de compilação do programa varia de acordo com o número que você digitar');
-	 Writeln('podendo durar até horas.');
-	 Writeln('O tempo que demora é no minimo:');
-	 Writeln('Número de 1 a 5 dígitos: 0 segundos');
-	 Writeln('Número de 6 dígitos: 1 segundo');
-	 Writeln('Número de 7 dígitos: 5 segundos');
-	 Writeln('Número de 8 dígitos: 1 minuto e 30 segundos');
-	 Writeln('Número de 9 dígitos: 15 minutos');
-	 Writeln('Número de 10 dígitos: 3 horas');
 	 Cont:=0;
 	 For j:=1 to 10 do
 			begin
